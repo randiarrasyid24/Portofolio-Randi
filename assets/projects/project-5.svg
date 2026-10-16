@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p5bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#021024"/>
+      <stop offset="100%" stop-color="#010409"/>
+    </linearGradient>
+    <filter id="p5glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="600" height="380" fill="url(#p5bg)"/>
+
+  <!-- Window Frame -->
+  <rect x="40" y="35" width="520" height="310" rx="12" fill="#061224" stroke="#1e3a5f" stroke-width="1.5"/>
+  <rect x="40" y="35" width="520" height="35" rx="12" fill="#081b35"/>
+  <path d="M40 70 H560" stroke="#1e3a5f" stroke-width="1"/>
+  <circle cx="65" cy="52" r="5" fill="#ef4444"/>
+  <circle cx="82" cy="52" r="5" fill="#f59e0b"/>
+  <circle cx="99" cy="52" r="5" fill="#10b981"/>
+  <text x="125" y="56" fill="#38bdf8" font-family="sans-serif" font-size="10" font-weight="bold">Portfolio Website v1 - Minimalist Astro</text>
+
+  <!-- Hero Content Center -->
+  <rect x="180" y="95" width="240" height="22" rx="11" fill="#0b2447" stroke="#38bdf8" stroke-width="1" filter="url(#p5glow)"/>
+  <text x="300" y="110" fill="#38bdf8" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle">&lt;Available for New Projects/&gt;</text>
+
+  <text x="300" y="160" fill="#ffffff" font-family="sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Creative Web Developer</text>
+  <text x="300" y="185" fill="#94a3b8" font-family="sans-serif" font-size="11" text-anchor="middle">Crafting sleek digital experiences with modern web technologies</text>
+
+  <!-- 3 Mini Cards -->
+  <rect x="80" y="220" width="130" height="90" rx="8" fill="#091f3a" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="95" y="245" fill="#38bdf8" font-family="sans-serif" font-size="11" font-weight="bold">Fast &amp; SEO</text>
+  <text x="95" y="265" fill="#94a3b8" font-family="sans-serif" font-size="8">100/100 Lighthouse score</text>
+  <text x="95" y="285" fill="#38bdf8" font-family="sans-serif" font-size="8">99% Optimization</text>
+
+  <rect x="235" y="220" width="130" height="90" rx="8" fill="#0a2547" stroke="#38bdf8" stroke-width="1.2" filter="url(#p5glow)"/>
+  <text x="250" y="245" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Responsive</text>
+  <text x="250" y="265" fill="#94a3b8" font-family="sans-serif" font-size="8">Mobile-first design</text>
+  <text x="250" y="285" fill="#38bdf8" font-family="sans-serif" font-size="8">Pixel-perfect flow</text>
+
+  <rect x="390" y="220" width="130" height="90" rx="8" fill="#091f3a" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="405" y="245" fill="#38bdf8" font-family="sans-serif" font-size="11" font-weight="bold">Modern Stack</text>
+  <text x="405" y="265" fill="#94a3b8" font-family="sans-serif" font-size="8">Tailwind + React + Vite</text>
+  <text x="405" y="285" fill="#38bdf8" font-family="sans-serif" font-size="8">Fluid animation</text>
+</svg>
